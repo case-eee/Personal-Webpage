@@ -4,12 +4,22 @@
   <title>Case-eee</title>
   <meta charset="utf-8">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'normalize', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+
+<div class="pure-menu pure-menu-open pure-menu-horizontal">
+  <ul>
+    <li><a href="/">About Me</a></li>
+    <li><a href="/resume">Resume</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="http://caseeee.imgur.com/">Photos</a></li>
+  </ul>
+</div>
 
 <%= yield %>
 

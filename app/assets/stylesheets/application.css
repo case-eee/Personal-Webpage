@@ -14,9 +14,10 @@
  *= require_self
  */
 
-.contact {
+.contact ul {
   font-size: 1.2em;
   text-align: center;
+  padding: 0;
 }
 
 #resume a:link {
@@ -39,12 +40,11 @@
 }
 
 .pure-menu.pure-menu-horizontal, .pure-menu.pure-menu-horizontal .pure-menu-heading {
-  /*float: left;*/
   background: #2d3e50;
 }
 
 .pure-menu.pure-menu-horizontal ul {
-  padding: 3px 0;
+  /*padding: 3px 0;*/
 }
 
 .pure-menu.pure-menu-horizontal a {
@@ -120,13 +120,12 @@ h1, h2, h3 {
   color: #fd8480;
 }
 
-ul, li {
-  list-style: none;
-  margin: -5em;
-}
-
-
 div {
   margin: 20px auto;
   display: block;
+}
+
+.welcome {
+  font-size: 1.25em;
+  text-align: left;
 }
