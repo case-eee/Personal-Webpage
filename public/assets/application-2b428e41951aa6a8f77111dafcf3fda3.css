@@ -1,0 +1,133 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+.contact {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#resume a:link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#resume a:hover {
+  text-decoration: underline;
+}
+
+#resume a:visited {
+  text-decoration: underline;
+  color: black;
+}
+
+.pure-u-2-3 {
+  margin-top: 0;
+}
+
+.pure-menu.pure-menu-horizontal, .pure-menu.pure-menu-horizontal .pure-menu-heading {
+  /*float: left;*/
+  background: #2d3e50;
+}
+
+.pure-menu.pure-menu-horizontal ul {
+  padding: 3px 0;
+}
+
+.pure-menu.pure-menu-horizontal a {
+  color: #636260;
+}
+
+.pure-menu.pure-menu-horizontal a:hover {
+  color: #636260;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  width: 100%;
+  display: block;
+  background-color: #fff; 
+  width: 100%;
+  padding: 20px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+#resume p {
+  padding-bottom: 1em;
+  border-bottom: solid;
+  border-width: 0.15em;
+  border-color: #636260;
+}
+
+#resume h4 {
+  color: #636260;
+}
+
+.nav-bar p {
+  color: #636260;
+}
+
+.blog {
+  display: block;
+  margin: 20px;
+}
+
+.blog .header {
+  text-align: center;
+}
+
+.blog h4, p {
+  color: #636260;
+}
+
+.blog p {
+  padding-bottom: 1em;
+  border-bottom: solid;
+  border-width: 0.15em;
+  border-color: #636260;
+}
+
+header h1{
+  color: #fd8480;
+  font-size: 3em;
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Varela Round', sans-serif;
+  color: #fd8480;
+}
+
+ul, li {
+  list-style: none;
+  margin: -5em;
+}
+
+
+div {
+  margin: 20px auto;
+  display: block;
+}
